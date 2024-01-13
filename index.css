@@ -1,3 +1,67 @@
-#heading {
-    color: red;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.logo {
+    padding: 20px;
+    border: 1px solid black
+}
+
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid black
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hotel-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    border: 1px solid black
+}
+
+.hotel-card {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+    background-color: rgb(230, 227, 227);
+    border: 1px solid black
+}
+
+.hotel-card:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,
+            0,
+            0,
+            0.2), 0 6px 20px 0 rgba(0,
+            0,
+            0,
+            0.19)
+}
+
+.cardImage {
+    height: 190px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: rgb(168, 165, 165);
+}
+
+.footer {
+    border: 1px solid black
 }
